@@ -1,0 +1,30 @@
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> lst=[1, [2, 3], 4, [[6, 7]]]
+>>> k=[2, 3]
+>>> v=[6, 7]
+>>> u=[v]
+>>> lst.remove(k)
+>>> lst.remove(u)
+>>> lst.extend(k)
+>>> lst.extend(v)
+>>> lst.sort()
+>>> lst
+[1, 2, 3, 4, 6, 7]
+>>>
+
+
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> lst=[1, [2, 3], 4, [[6, 7]]]
+>>> lst.pop(1)
+[2, 3]
+>>> lst.pop(2)
+[[6, 7]]
+>>> lst.insert(1,2)
+>>> lst.insert(2,3)
+>>> lst.append(6)
+>>> lst.append(7)
+>>> lst
+[1, 2, 3, 4, 6, 7]
+>>>
